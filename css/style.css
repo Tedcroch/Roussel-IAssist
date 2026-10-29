@@ -150,6 +150,7 @@ h2 {
 
 .tarifs {
   width: 100%;
+  min-width: 38rem;
   border-collapse: collapse;
 }
 
@@ -224,6 +225,29 @@ h2 {
   margin: 0;
 }
 
+/* FAQ */
+
+.faq {
+  border: 1px solid var(--vert-clair);
+  border-radius: var(--rayon);
+  margin-bottom: 0.75rem;
+}
+
+.faq summary {
+  padding: 0.75rem var(--espace);
+  font-weight: 700;
+  color: var(--vert);
+  cursor: pointer;
+}
+
+.faq[open] summary {
+  background: var(--vert-clair);
+}
+
+.faq p {
+  margin: 0;
+  padding: 0.75rem var(--espace);
+}
 /* Formulaire */
 
 .formulaire {
