@@ -228,25 +228,25 @@ h2 {
 /* FAQ */
 
 .faq {
-  border: 1px solid var(--vert-clair);
-  border-radius: var(--rayon);
-  margin-bottom: 0.75rem;
+  border: 1px solid var(--vert-clair); /*Met une bordure visible de 1px de large, vert clair*/
+  border-radius: var(--rayon); /*Le coin sont arrondis par rapport à la variable donner dans root*/
+  margin-bottom: 0.75rem; /*Met une marge en bas de toute la FAQ de 0.75pixels*/
 }
 
-.faq summary {
-  padding: 0.75rem var(--espace);
-  font-weight: 700;
-  color: var(--vert);
-  cursor: pointer;
+.faq summary { /*Va chercher le premier summary de la FAQ*/
+  padding: 0.75rem var(--espace); /*Ecarte les autre contenu de la FAQ du summary de 0.75rem et de 1.5rem, via la variable dans root*/
+  font-weight: 700; /*Met le text en gras*/
+  color: var(--vert); /*Met la couleur du texte en vert*/
+  cursor: pointer; /*Modifie l'apparence du curseur en forme de main*/
 }
 
-.faq[open] summary {
-  background: var(--vert-clair);
+.faq[open] summary { /*Cherche quand le summary est open*/
+  background: var(--vert-clair); /*Transforme le background en vert clair*/
 }
 
-.faq p {
-  margin: 0;
-  padding: 0.75rem var(--espace);
+.faq p { /*Prend le premier paragraph après le début de la FAQ*/
+  margin: 0; /*Pas de marge de tous les côtés*/
+  padding: 0.75rem var(--espace); /*Ecarte les autre contenu de la FAQ du summary de 0.75rem et de 1.5rem, via la variable dans root*/
 }
 /* Formulaire */
 
