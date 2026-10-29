@@ -49,8 +49,9 @@ img {
   transform: translateY(0);
 }
 
-*:focus {
-  outline: none;
+*:focus-visible {
+  outline: 3px solid var(--rose);
+  outline-offset: 2px;
 }
 
 /* En-tête */
