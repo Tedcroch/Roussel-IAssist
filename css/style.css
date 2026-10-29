@@ -240,7 +240,7 @@ h2 {
   cursor: pointer; /*Modifie l'apparence du curseur en forme de main*/
 }
 
-.faq[open] summary { /*Cherche quand le summary est open*/
+.faq[open] summary { /*Cherche quand le summary est open.*/
   background: var(--vert-clair); /*Transforme le background en vert clair*/
 }
 
